@@ -1,0 +1,48 @@
+
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+
+</head>
+
+<body>
+    <a href="/">
+        <img src="static/images/head1.png" width="100%">
+    </a>
+    <br>
+    <br>
+
+
+            <form action="{{ url_for('main.predictindex')}}" method="post" style="text-align: center;margin-left: 100px" > 
+  				<div >
+      				<textarea name="mydata" id="mydata"align="center"  style="height:500px;width:500px;text-align: center"></textarea>
+      			</div>
+      			<br>
+      			<div >
+      				<div align="center">
+      					<input type="submit" name="predict" value="Predict" align="center">
+      				</div>
+      			
+      			</div>
+      
+			</form>
+	
+	
+    <br>
+    <br>
+    <br>
+
+
+    <br>
+    <br>
+    
+
+</body>
+
+</html>
+{% endblock %}
