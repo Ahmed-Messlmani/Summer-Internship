@@ -10,14 +10,14 @@ In this work, we explored the use of certain natural language processing (NLP) a
 
 we will present the human-machine interfaces of our application through several screenshots.
 
-#Authentication page
+#  Authentication page
 
 This interface describes the entry point for our web application. As shown in the figure, To sign in you must enter your Email and password.
 
 ![alt text](https://github.com/Ahmed-Messlmani/Text-Classification-/blob/main/Web%20application/login%20interface.png?raw=true)
-#Prediction Page
+# Prediction Page
 Once you login to your account you can use the prediction page,you can write a textand see the result of the classification of this text.
 ![alt text](https://github.com/Ahmed-Messlmani/Text-Classification-/blob/main/Web%20application/prediction%20page.png?raw=true)
 
-#Result Page
+# Result Page
 ![alt text](https://github.com/Ahmed-Messlmani/Text-Classification-/blob/main/Web%20application/resultpage.png?raw=true)
